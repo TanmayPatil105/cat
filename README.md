@@ -1,7 +1,7 @@
 # README
 This is a program to mimic the working of the Unix command `cat` that gives prints the contents of a textfile (implementation in C)
 
-Refer : [CAT](https://man7.org/linux/man-pages/man1/cat.1.html)
+Refer : [cat command](https://man7.org/linux/man-pages/man1/cat.1.html)
 
 ## Note
 -It only takes 1 argument
