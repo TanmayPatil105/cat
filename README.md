@@ -1,5 +1,5 @@
 # README
-This is a program to mimic the working of the Unix command `cat` that gives prints the contents of a textfile (implementation in C)
+This is a program to mimic the working of the Unix command `cat` that prints the contents of a textfile (implementation in C)
 
 Refer : [cat command](https://man7.org/linux/man-pages/man1/cat.1.html)
 
