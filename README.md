@@ -1,4 +1,4 @@
-# cat
+# README
 This is a program to mimic the working of the Unix command `cat` that compares files line-by-line (implementation in C)
 
 Refer : [CAT](https://man7.org/linux/man-pages/man1/cat.1.html)
@@ -15,7 +15,7 @@ Refer : [CAT](https://man7.org/linux/man-pages/man1/cat.1.html)
 
 ### To execute the program
 
-`./cat <file_name>
+`./cat <file_name>`
 
 ###### For Example 
 
