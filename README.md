@@ -7,7 +7,7 @@ Refer : [CAT](https://man7.org/linux/man-pages/man1/cat.1.html)
 -It only takes 1 argument
 -No character limit for text file
 
-##Executing the program
+## Executing the program
 
 ### To make the makefile
 
