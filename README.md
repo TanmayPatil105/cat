@@ -1,5 +1,5 @@
 # README
-This is a program to mimic the working of the Unix command `cat` that compares files line-by-line (implementation in C)
+This is a program to mimic the working of the Unix command `cat` that gives prints the contents of a textfile (implementation in C)
 
 Refer : [CAT](https://man7.org/linux/man-pages/man1/cat.1.html)
 
