@@ -1,16 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int num,char *file[]){
-    FILE* fptr;
-    fptr=fopen(file[1],"r");
-    if(!fptr || num!=2){
-        printf("ERROR");
-    }
-    char ch;
-    while((ch=fgetc(fptr))!=EOF){
-        printf("%c",ch);
-    }
-    fclose(fptr);
+void help()
+{
+    printf("Invalid command used\n\n");
+    printf("Use the following format : \n");
+    printf("./cat [file-address]\n\n");
+    return;
 }
 
+int main(int argc, char **argv)
+{
+    if (argc < 2)
+    {
+        printf("Please give file name as an argument : ");
+        exit(-1);
+    }
+
+    for (int i = 1; i < argc; i++)
+    {
+        FILE *fptr;
+        fptr = fopen(argv[i], "r");
+        if (!fptr)
+        {
+            printf("ERROR! File Not Found.");
+        }
+        char ch;
+        while ((ch = fgetc(fptr)) != EOF)
+        {
+            printf("%c", ch);
+        }
+        fclose(fptr);
+    }
+
+    return 0;
+}
